@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kurs</title>
+    <script src="src/js/Kurs Rupiah/kurs.js">
+    </script>
+    <link href="src/css/mystyle.css" rel="stylesheet">
+</head>
+<body>
+    <div class="NavBar">
+    <ul>
+        <li><a href="Login.html">Login Authenticator<br></a></li>
+        <li><a href="index.html">Index<br></a></li>
+        <li><a href="chat.html">Chat<br></a></li>
+    </ul>
+    </div>
+    <table>
+        <tr id="NameTag">
+            <td>Masukkan Nilai</td>
+            <td>Value</td>
+            <td>Nilai Rupiah</td>
+        </tr>
+        <tr>
+            <td><input type="number" placeholder="IDR" id="IDR"></td>
+            <td><select name="Kurs" id="Kurs" onchange="KursCheck()">
+                <option value="USD" id="USD">USD</option>
+                <option value="SingaporeDollar" id="SingaporeDollar">Singapore Dollar</option>
+                <option value="Ringgit" id="Ringgit">Ringgit Malaysia</option>
+                <option value="Yen" id="Yen">Yen Jepang</option>
+                <option value="Euro" id="Euro">Euro</option>
+                <option value="Riyal" id="Riyal">Riyal Arab Saudi</option>
+            </select> </td>
+            <td><input type="text" value="" placeholder="Hasil" id="Hasil"></td>
+        </tr>
+    </table>
+    <a href="index.html">Index<br></a>       
+</body>
+</html>

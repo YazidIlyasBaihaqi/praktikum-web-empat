@@ -1,0 +1,10 @@
+.NavBar ul {
+    list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.NavBar li {
+    display: inline-block;
+	margin: 0;
+    padding: 15px;
+}
